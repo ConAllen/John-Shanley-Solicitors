@@ -237,7 +237,7 @@ header {
   border: 0;
   box-sizing: border-box;
   margin: 10px;
-  padding: 15px 30px;
+  padding: 10px 20px;
   box-shadow: inset 0 0 0 2px #D4AF37;
   color: #fff;
   font-family: 'Lato';
@@ -250,6 +250,7 @@ header {
 
 
 }
+
 .btn::before,
 .btn::after {
   box-sizing: inherit;
@@ -395,6 +396,16 @@ header {
     height:auto;
     padding:25px;
     margin:0px 85px;
+    transition:transform .3s;
+
+
+}
+
+.about-us-box:hover {
+
+  transform:translateY(-5px) scale(1.03);
+  box-shadow: 2px 20px 25px #8888884d;
+
 
 }
 
@@ -423,9 +434,9 @@ header {
 
 .section-features {
 
-  padding:150px 0;
+  padding:80px 0;
   color: #555;
-  background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/image-1.jpg);
+  background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/four-courts-by-night-1.jpg);
   background-size:cover;
   background-position:top;
   height: 150vh;
@@ -438,17 +449,52 @@ header {
 .feature-box {
 
   background-color:rgba(255, 255, 255, 0.802);
-  padding:25px;
+  padding:10px 10px;
   text-align:center;
   border-radius: 3px;
   box-shadow: 0 1.5px rgba(0, 0, 0, 0.487);
   transition:transform .3s;
+  box-shadow: 2px 20px 25px #8888884d;
+  border-radius: 10px;
+
 
 }
 
 .feature-box:hover {
 transform:translateY(-15px) scale(1.03);
 }
+
+
+
+.feature-1{
+  width:100%;
+  height: auto;
+  border-radius:10px;
+
+
+}
+
+.feature-2 {
+  width:100%;
+  height: 200px;
+  border-radius:10px;
+
+
+}
+
+.btn-feature {
+
+  color:#555;
+  font-weight: 300;
+}
+
+
+.features-heading{
+
+  color:white;
+}
+/*
+
 
 
 /* footer */
