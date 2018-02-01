@@ -83,7 +83,7 @@ animations on scroll
 
 
 $('.js--wp-1').waypoint(function(direction) {
-    $('.js--wp-1').addClass('animated fadeIn');
+    $('.js--wp-1').addClass('animated fadeInUp');
      } ,{
        offset:'50%'
      });
@@ -91,13 +91,13 @@ $('.js--wp-1').waypoint(function(direction) {
 
 
      $('.js--wp-left').waypoint(function(direction) {
-      $('.js--wp-left').addClass('animated fadeInLeft');
+      $('.js--wp-left').addClass('animated fadeIn');
        } ,{
          offset:'50%'
        });
 
        $('.js--wp-right').waypoint(function(direction) {
-        $('.js--wp-right').addClass('animated fadeInRight');
+        $('.js--wp-right').addClass('animated fadeIn');
          } ,{
            offset:'50%'
          });
