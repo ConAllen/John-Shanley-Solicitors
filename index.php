@@ -23,21 +23,17 @@
 
   <!-- header -->
    <header class= "header">
-
     <nav>
 
       <div class="row">
         <ul class="main-nav">
-          <li><a href="#about-us">About Us</a></li>
-          <li><a href="#services">Our Services</a></li>
-          <li><a href="#contact-us">Contact Us</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Our Services</a></li>
+          <li><a href="#">Contact Us</a></li>
         </ul>
         <div class="logo">
                 <h1 class="logo">JS&nbsp;<span class="logo-2">Solicitors</span></h1>
-        </div>
-        <div class="logo-sticky">
-            <h1 class="logo-black-1">JS&nbsp;<span class="logo-black-2">Solicitors</span></h1>
-        </div>
+            </div>
       </div>
     </nav>
 
@@ -49,8 +45,8 @@
           </h1>
 
           <div class="buttons">
-              <a href='#' class="btn js--scroll-to-services  btn-animated">Our Services</a>
-              <a href='#' class="btn js--scroll-to-contact btn-animated">Contact Us</a>
+              <a href='#' class="btn  btn-animated">Our Services</a>
+              <a href='#' class="btn  btn-animated">Contact Us</a>
 
           </div>
       </div>
@@ -59,7 +55,7 @@
 
   <!-- info section  -->
 
-    <section class='about-us-section js--about-us-section' id="about-us">
+    <section class='about-us-section'>
       <div class="row">
           <h2>About us &mdash; Meet the team</h2>
           <p class="long-copy">
@@ -68,13 +64,13 @@
       </div>
 
 
-      <div class="row js--wp-1">
+      <div class="row">
           <div class="col span-1-of-2">
 
               <h3>John Monoly</h3>
               <div class="about-us-box">
 
-               <img src="resources/assets/person-4-min.jpeg" alt="john-photo" class='about-us'>
+               <img src="resources/assets/person-4.jpeg" alt="john-photo" class='about-us'>
                 <p class="solicitor-info">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque eaque fugiat nulla, obcaecati molestias quas doloribus,
                 </p>
@@ -84,20 +80,19 @@
 
               <h3>Anne Dunne</h3>
               <div class="about-us-box">
-                  <img src="resources/assets/person-2-min.jpeg" alt="mary-photo" class='about-us'>
+                  <img src="resources/assets/person-2.jpeg" alt="mary-photo" class='about-us'>
                 <p class="solicitor-info">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque eaque fugiat nulla, obcaecati molestias quas doloribus,
           </div>
 
 
-        </div>
-     </div>
+      </div>
   </section>
 
 
   <!--features section  -->
 
-  <section class='section-features js--section-features'id="services">
+  <section class='section-features'>
 
       <div class="row">
           <h2>Our Services</h2>
@@ -106,14 +101,12 @@
 
     <div class='row'>
       <div class="col span-1-of-4">
-        <div class="feature-box js--wp-left">
-            <div class="img-box">
-                <img src="resources/assets/feature-1-min.jpg" alt="feature" class="feature-1">
-             </div>
-                    <h4>
-                        Personal Injury
+        <div class="feature-box">
+            <img src="resources/assets/feature-1.jpg" alt="feature" class="feature-1">
+            <h4>
+                Personal Injury
 
-                    </h4>
+            </h4>
             <p class="feature-box_text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
@@ -123,8 +116,8 @@
         </div>
       </div>
       <div class="col span-1-of-4">
-          <div class="feature-box js--wp-left">
-              <img src="resources/assets/feature-2.1-min.jpg" alt="feature" class="feature-2">
+          <div class="feature-box">
+              <img src="resources/assets/feature-2.1.jpg" alt="feature" class="feature-1">
               <h4>
                   Criminal Defence
 
@@ -137,8 +130,8 @@
           </div>
         </div>
         <div class="col span-1-of-4">
-            <div class="feature-box js--wp-right ">
-                <img src="resources/assets/feature-3-min.jpg" alt="feature" class="feature-3">
+            <div class="feature-box">
+                <img src="resources/assets/feature-3.jpg" alt="feature" class="feature-1">
                 <h4>
                     Road Traffic
                 </h4>
@@ -151,8 +144,8 @@
             </div>
           </div>
           <div class="col span-1-of-4">
-              <div class="feature-box js--wp-right">
-                  <img src="resources/assets/feature-4-min.jpg" alt="feature" class="feature-4">
+              <div class="feature-box">
+                  <img src="resources/assets/feature-4.jpg" alt="feature" class="feature-1">
                   <h4>
                       Garda Station Advice
 
@@ -170,8 +163,8 @@
 
 
         <div class="col span-1-of-4">
-          <div class="feature-box js--wp-left">
-              <img src="resources/assets/feature-5-min.jpg" alt="feature" class="feature-5">
+          <div class="feature-box">
+              <img src="resources/assets/feature-5.jpg" alt="feature" class="feature-1">
               <h4>
                   Judicial Review
 
@@ -185,8 +178,8 @@
           </div>
         </div>
         <div class="col span-1-of-4">
-            <div class="feature-box js--wp-left">
-                <img src="resources/assets/feature-6-min.jpg" alt="feature" class="feature-6">
+            <div class="feature-box">
+                <img src="resources/assets/feature-6.jpg" alt="feature" class="feature-1">
                 <h4>
                     Family Law
 
@@ -199,8 +192,8 @@
             </div>
           </div>
           <div class="col span-1-of-4">
-              <div class="feature-box js--wp-right">
-                  <img src="resources/assets/feature-7-min.jpg" alt="feature" class="feature-7">
+              <div class="feature-box">
+                  <img src="resources/assets/feature-7.jpg" alt="feature" class="feature-1">
                   <h4>
                       Unlawful Detention
                   </h4>
@@ -213,8 +206,8 @@
               </div>
             </div>
             <div class="col span-1-of-4">
-                <div class="feature-box js--wp-right">
-                    <img src="resources/assets/feature-8-min.jpg" alt="feature" class="feature-8">
+                <div class="feature-box">
+                    <img src="resources/assets/feature-8.jpg" alt="feature" class="feature-1">
                     <h4>
                         Extradition
 
@@ -229,21 +222,15 @@
       </div>
   </section>
 
-
-<section class="contact-us-section js--section-contact" id="contact-us">
-    <div class="row">
-        <h2>Contact Us</h2>
-    </div >
-    <div class="map-box">
+  <div class="map-box">
         <div class="map">
-
         </div>
 
         <div class='info-box'>
 
                 <div class="footer-info">
                         <div class="row">
-                           <!-- <h2 class="contact-heading">Contact us</h2>-->
+                            <h2 class="contact-heading">Contact us</h2>
                                     <div class="footer-info">
                                         <div class="telephone">
                                             <span><i class="ion-ios-telephone-outline"></i></span>
@@ -253,7 +240,7 @@
                                         <span>
                                             <i class="ion-ios-email-outline"></i>
                                         </span>
-                                            <p class="john-email">Johnshanleylaw@gmail.com</p>
+                                            <p class="john-email">johnshanleylaw@gmail.com</p>
                                         <span>
                                         </div>
                                         <div class="location"></div>
@@ -264,10 +251,10 @@
                                 </div>
                          </div>
                  </div>
-            </div>
          </div>
-    </div>
-</section>
+
+</div>
+
 
 <section class="contact-form" id="form">
 
@@ -277,14 +264,14 @@
 
             <form method="post" action="mailer.php" class="contact-form">
 
-               <!-- <div class="row">
+                <div class="row">
                     <?php
-                        if($_GET ['success'] == 1){
-                            echo "<div class=\"form-messages success\"><Thank you! Your message has been send.</div>"
-
-                        if($_GET ['success'] == -1){
-                            echo "<div class=\"form-messages success\"><Thank you! Your message has been send. </div>"
-                        }
+                    if($_GET ['success'] == 1){
+                        echo "<div class=\"form-messages success\"><Thank you! Your message has been send. </div>"
+                    }
+                    if($_GET ['success'] == -1){
+                        echo "<div class=\"form-messages success\"><Thank you! Your message has been send. </div>"
+                    }
                         <div class="form-messages success">
                                     Thank you! Your message has been sent
                                 </div>
@@ -293,12 +280,12 @@
                                     Oops something went wrong, please try again.
                                 </div>
                         ?>
-                </div> -->
+                </div>
 
                 <div class="row">
                         <div class="col span-1-of-3">
 
-                            <label for="name">Name:</label>
+                            <label for="name">Name</label>
                         </div>
                         <div class ="col span-2-of-3">
                             <input type="text" name="name" id="name" placeholder="Your email" required>
@@ -308,7 +295,7 @@
                     <div class="row">
                             <div class="col span-1-of-3">
 
-                                <label for="email">Email address:</label>
+                                <label for="email">Email address</label>
 
                             </div>
                             <div class ="col span-2-of-3">
@@ -318,7 +305,7 @@
                         </div>
                         <div class="row">
                                 <div class="col span-1-of-3">
-                                    <label for="number">Phone Number:</label>
+                                    <label for="number">Phone Number</label>
                                 </div>
                                 <div class ="col span-2-of-3">
                                     <input type="number" name="number" id="number" placeholder="Your phone number" required>
@@ -326,7 +313,7 @@
                             </div>
                             <div class="row">
                                     <div class="col span-1-of-3">
-                                        <label for="message">Message:</label>
+                                        <label for="message">Message</label>
                                     </div>
                                     <div class ="col span-2-of-3">
                                         <textarea name="message" placeholder="Your message" id="" cols="30" rows="10"></textarea>
@@ -351,12 +338,9 @@
                                             <label>&nbsp;</label>
                                         </div>
                                         <div class ="col span-2-of-3">
-
-                                                <input type="submit" value="Send"></input>
-
-                                        </div>
-                                </div>
-
+                                            <input type="submit" value="Send" ></input>
+                                    </div>
+                                 </div>
 
 
 </section>
@@ -370,15 +354,18 @@
                 <div class="col span-1-of-2">
                     <ul class="footer-nav">
                         <li><a href="#">About us</a></li>
-                        <li><a href="#">Our Services</a></li>
-                        <li><a href="#">Request Call Back</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">iOS App</a></li>
+                        <li><a href="#">Android App</a></li>
                     </ul>
                 </div>
                 <div class="col span-1-of-2">
                     <ul class="social-links">
-                        <li><a href="#"><i class="ion-social-linkedin"></i></a></li>
+                        <li><a href="#"><i class="ion-social-facebook"></i></a></li>
                         <li><a href="#"><i class="ion-social-twitter"></i></a></li>
                         <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                        <li><a href="#"><i class="ion-social-instagram"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -390,9 +377,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="vendors/js/jquery.waypoints.min.js"></script>
 <script src="http://maps.google.com/maps/api/js"></script>
-<script src="vendors/js/gmaps.js"></script>
 <script src="resources/js/script.js"></script>
-
+<script src="vendors/js/gmaps.js"></script>
 
 <!--<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGpEyuNg68ELU73cHf2kGBjh3xTDGDSoY&callback=initMap"
   type="text/javascript"></script> -->
