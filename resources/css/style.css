@@ -136,6 +136,7 @@ h4 {
 
   font-size:18px;
   margin-top:10px;
+  color:#555;
 
 }
 
@@ -595,7 +596,6 @@ header {
     margin:0px 85px;
     transition:transform .3s;
     border-radius: 3px;
-    box-shadow: 0 1.5px #555;
     transition:transform .3s;
     border: solid 0.5px #555;
 
@@ -606,6 +606,7 @@ header {
 
   transform:translateY(-2px) scale(1.03);
   box-shadow: 2px 20px 25px #8888886c;
+  /*box-shadow: 2px 20px 25px #D4AF37;*/
 
 
 }
@@ -656,7 +657,6 @@ header {
   margin:5px 5px;
   text-align:center;
   border-radius: 3px;
-  box-shadow: 0 1.5px rgba(0, 0, 0, 0.487);
   transition:transform .3s;
   box-shadow: 2px 20px 25px #8888882a;
   border-radius: 3 px;
@@ -667,8 +667,9 @@ header {
 
 .feature-box:hover {
   transform:translateY(-5px) scale(1.1);
-  background-color:rgba(255, 255, 255, 0.268);
-  box-shadow: 5px 20px 25px #8888888a;
+  background-color:#fff;
+  box-shadow: 5px 20px 25px #888888f1;
+  border: solid 1px#D4AF37;
 
 }
 
@@ -710,7 +711,6 @@ header {
   height: auto;
   border-radius:5px;
   transform: scale(1.03);
-  opacity: 1;
 
 }
 
